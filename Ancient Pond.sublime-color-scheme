@@ -20,7 +20,7 @@
     },
     "globals":
     {
-        "background": "rgb(51, 77, 77)",
+        "background": "rgb(45, 64, 64)",
         "foreground": "rgb(230, 255, 242)",
         "caret": "rgb(220, 220, 204)",
         "selection": "rgb(0, 153, 153)",
@@ -73,6 +73,11 @@
             "name": "Asm: number",
             "scope": "constant.character.decimal.assembly, constant.character.hexadecimal.assembly",
             "foreground": "var(red)"
+        },
+        {
+            "name": "Macros",
+            "scope": "meta.preprocessor.macro, entity.name.function.preprocessor",
+            "foreground": "rgb(194, 153, 255)"
         },
 
         // source.c++ meta.function.c++ meta.block.c++ support.type.stdint.c
