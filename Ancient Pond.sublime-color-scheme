@@ -4,24 +4,63 @@
     "variables":
     {
         "green": "rgb(51, 204, 51)",
-        "green_light" : "rgb(124, 242, 203)",
+        "green_light": "rgb(158, 255, 224)",
         "white": "rgb(255, 255, 255)",
-        "orange": "rgb(255, 204, 128)",
+        "orange": "rgb(247, 215, 101)",
         "purple": "rgb(194, 153, 255)",
         "red": "rgb(255, 128, 128)",
         "brown": "rgb(191, 186, 156)",
+        "darkgrey": "rgb(27, 46, 46)",
 
-        "marker": "rgb(243, 4, 75)",    //for test usage
+        "extrared": "rgb(243, 4, 75)",
 
     },
     "globals":
     {
+        // globals
         "background": "rgb(45, 64, 64)",
         "foreground": "rgb(230, 255, 242)",
-        "caret": "rgb(220, 220, 204)",
-        "selection": "rgb(0, 153, 153)",
-        "line_highlight": "rgb(102, 105, 110)",
         "invisibles" : "rgb(74, 87, 80)",
+        "caret": "rgb(220, 220, 204)",
+        "block_caret": "rgb(220, 220, 204)",
+        "line_highlight": "var(darkgrey)",
+
+        // accents
+        "misspelling": "var(extrared)",
+        "fold_marker": "var(purple)",
+        "minimap_border": "var(purple)",
+        "accent": "var(green)",
+
+        // TODO: css
+
+        // diff
+        "line_diff_width": "2",
+        "line_diff_added" : "var(green)",
+        "line_diff_modified" : "var(purple)",
+        "line_diff_deleted" : "var(red)",
+
+        // selection
+        "selection": "var(darkgrey)",
+        // "selection_foreground": "var(green)",
+        // "selection_border": "rgb(purple)",
+        // "selection_border_width": "8",
+        // "inactive_selection": "rgb(50, 148, 148)",
+        // "inactive_selection_foreground": "var(marker)",
+        "selection_corner_style": "square",
+        "selection_corner_radius": "cut",
+
+        // find
+        "highlight": "var(purple)",
+        "find_highlight": "var(red)",
+        "find_highlight_foreground": "var(red)",
+
+        // guides
+
+        // brackets
+        "brackets_options": "underline italic",
+
+        // tags
+        "tags_options": "underline",
     },
     "rules":
     [
@@ -91,7 +130,7 @@
         {
             "name": "Find In Files: File Name",
             "scope": "entity.name.filename.find-in-files",
-            "foreground": "var(red)"
+            "foreground": "var(green)"
         },
         {
             "name": "Find In Files: Line numbers",
