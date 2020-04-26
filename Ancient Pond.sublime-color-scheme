@@ -4,7 +4,7 @@
     "variables":
     {
         "green": "rgb(51, 204, 51)",
-        "green_light": "rgb(158, 255, 224)",
+        "green_light": "rgb(122, 255, 165)", //"rgb(158, 255, 224)",
         "white": "rgb(255, 255, 255)",
         "orange": "rgb(247, 215, 101)",
         "purple": "rgb(194, 153, 255)",
@@ -22,7 +22,7 @@
         "foreground": "rgb(230, 255, 242)",
         "invisibles" : "rgb(74, 87, 80)",
         "caret": "rgb(220, 220, 204)",
-        "block_caret": "rgb(220, 220, 204)",
+        "block_caret": "rgb(72, 189, 146)",
         "line_highlight": "var(darkgrey)",
 
         // accents
@@ -37,7 +37,7 @@
         "line_diff_width": "2",
         "line_diff_added" : "var(green)",
         "line_diff_modified" : "var(purple)",
-        "line_diff_deleted" : "var(red)",
+        "line_diff_deleted" : "var(extrared)",
 
         // selection
         "selection": "var(darkgrey)",
@@ -51,8 +51,8 @@
 
         // find
         "highlight": "var(purple)",
-        "find_highlight": "var(red)",
-        "find_highlight_foreground": "var(red)",
+        "find_highlight": "rgb(220, 220, 204)",
+        // "find_highlight_foreground": "var(red)",
 
         // guides
 
@@ -156,3 +156,7 @@
         },
     ]
 }
+
+// description
+// https://www.sublimetext.com/docs/3/color_schemes.html
+
